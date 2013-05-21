@@ -3,4 +3,5 @@ connect.createServer(
     connect.static(__dirname)
 ).listen(5000);
 
-console.log("Starting........");
+
+logger.info("Listening on localhost:5000");

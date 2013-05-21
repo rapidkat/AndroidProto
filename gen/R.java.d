@@ -11,4 +11,13 @@
 /Users/tlee/MobyApp/res/layout/main.xml \
 /Users/tlee/MobyApp/res/values/strings.xml \
 /Users/tlee/MobyApp/res/xml/config.xml \
+/Users/tlee/MobyApp/bin/res/drawable/icon.png \
+/Users/tlee/MobyApp/bin/res/drawable-hdpi/ic_launcher.png \
+/Users/tlee/MobyApp/bin/res/drawable-hdpi/icon.png \
+/Users/tlee/MobyApp/bin/res/drawable-ldpi/ic_launcher.png \
+/Users/tlee/MobyApp/bin/res/drawable-ldpi/icon.png \
+/Users/tlee/MobyApp/bin/res/drawable-mdpi/ic_launcher.png \
+/Users/tlee/MobyApp/bin/res/drawable-mdpi/icon.png \
+/Users/tlee/MobyApp/bin/res/drawable-xhdpi/ic_launcher.png \
+/Users/tlee/MobyApp/bin/res/drawable-xhdpi/icon.png \
 /Users/tlee/MobyApp/bin/AndroidManifest.xml \
