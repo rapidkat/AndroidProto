@@ -1,2 +1,2 @@
-/Users/tlee/MobyApp/bin/AndroidManifest.xml : \
-/Users/tlee/MobyApp/AndroidManifest.xml \
+/Users/tzelee/AndroidProto/bin/AndroidManifest.xml : \
+/Users/tzelee/AndroidProto/AndroidManifest.xml \

@@ -38,6 +38,20 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+            function deviceready() {
+            alert( 'cordova ready!' );
+        }
+
+function acquire(str) {
+            cordova.exec(
+                function(){alert("PASS")}, 
+                function(err) {alert('fail')}, "Echo", "echo", [str]);
+
+        };
         </script>
+        <button type="button" onclick="acquire('Hello Tessa!');">acquire</button>
+<p>
+        <button type="button" onclick="acquire('');">acquire2</button>
+
     </body>
 </html>

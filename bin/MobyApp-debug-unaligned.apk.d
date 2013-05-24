@@ -1,4 +1,4 @@
-/Users/tlee/MobyApp/bin/MobyApp-debug-unaligned.apk : \
-/Users/tlee/MobyApp/bin/MobyApp.ap_ \
-/Users/tlee/MobyApp/bin/classes.dex \
-/Users/tlee/MobyApp/libs/cordova-2.7.0.jar \
+/Users/tzelee/AndroidProto/bin/MobyApp-debug-unaligned.apk : \
+/Users/tzelee/AndroidProto/bin/MobyApp.ap_ \
+/Users/tzelee/AndroidProto/bin/classes.dex \
+/Users/tzelee/AndroidProto/libs/cordova-2.7.0.jar \
