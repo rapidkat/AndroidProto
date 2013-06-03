@@ -22,19 +22,34 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/proto.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
         <title>Hello World</title>
+        
     </head>
     <body>
         <div class="app">
             <h1>Apache Cordova</h1>
+            <div class="btn-toolbar">
+  <div class="btn-group" stlye="align:center">
+    <a class="btn" href="#"><i class="icon-align-left"></i></a>
+    <a class="btn" href="#"><i class="icon-align-center"></i></a>
+    <a class="btn" href="#"><i class="icon-align-right"></i></a>
+    <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+  </div>
+</div>
+<div class="progress progress-striped">
+  <div class="bar" style="width: 20%;"></div>
+</div>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
                 <p> IT IS TESSA TIME! </p>
             </div>
         </div>
-        <script type="text/javascript" src="cordova-2.7.0.js"></script>
+        <script type="text/javascript" src="js/cordova-2.7.0.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
@@ -52,6 +67,30 @@ function acquire(str) {
         <button type="button" onclick="acquire('Hello Tessa!');">acquire</button>
 <p>
         <button type="button" onclick="acquire('');">acquire2</button>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--Sidebar content--> LEFT
+    </div>
+    <div class="span10">
+      <!--Body content--> RIGHT
+    </div>
+  </div>
+</div>
+
+<footer role="contentinfo">
+    <nav role="navigation">
+        <ul>
+            <li><a href="./hero.html">This is a link</a></li>
+            <li><a href="#">Active Link</a></li>
+            <li><a href="#">Lorem link</a></li>
+            <li><a href="#">Dolor link two</a></li>
+            <li><a href="#">Here is a link</a></li>
+        </ul>
+    </nav>      
+    <p>Copyright © 2012 Company Co. All rights reserved.</p>
+</footer>       
 
     </body>
 </html>

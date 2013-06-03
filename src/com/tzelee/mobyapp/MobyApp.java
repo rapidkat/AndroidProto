@@ -21,8 +21,6 @@ package com.tzelee.mobyapp;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
-import com.google.android.gcm;
-import com.plugin.GCM;
 
 public class MobyApp extends DroidGap
 {
